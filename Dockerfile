@@ -1,4 +1,4 @@
-FROM wordpress
+FROM wordpress:5.8.3
 
 # Install requirements for wp-cli support
 RUN apt-get update \
